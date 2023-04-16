@@ -52,7 +52,7 @@ function App() {
       >
         <input
           className="border-none resize-none bg-black p-1 rounded-md border-black text-white"
-          placeholder="Adicione uma nova tarefa"
+          placeholder="Add a new task"
           value={inputValue}
           onChange={handleInputChange}
         />
