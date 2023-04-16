@@ -62,6 +62,7 @@ function App() {
         <ul>
           {tasks.map((item) => (
             <Task
+              key={item.text}
               completed={item.completed}
               text={item.text}
               handleDelete={handleDelete}
